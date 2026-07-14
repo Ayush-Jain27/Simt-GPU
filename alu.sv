@@ -2,9 +2,9 @@
 module alu
 (
   input  alu_op_e                  op,
-  input  logic signed [1:0]        a,
-  input  logic signed [1:0]        b,
-  output logic signed [1:0]        y,
+  input  logic signed [31:0]        a,
+  input  logic signed [31:0]        b,
+  output logic signed [31:0]        y,
   output logic                     ne
 );
 
